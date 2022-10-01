@@ -1,0 +1,29 @@
+Control structures are grouped into 4
+
+1. unconditional --------- goto
+2. bi-directional --------- if...else
+3. multi-directional ---------- switch
+4. iteration ---------- looping
+
+1. sequentioal
+2. selection/conditional
+3. iteration/looping
+
+
+today we di uf...else
+
+syntax---------- 
+	1. IF CONDITION 
+		STATMENT
+	2. IF CONDITION
+		STATEMENT
+		STATEMENT2
+	3. IF CONDITION
+		STATEMENT
+	      CONDITION2
+	      	STATEMENT
+	      	------------ we add an else if all other conditions are wrong
+	      	
+We use else if if the conditions are mutually exclusive
+Things that can happen at the same time we use if
+	
