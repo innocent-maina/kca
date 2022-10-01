@@ -1,18 +1,6 @@
-// Write a program that accepts marks scored in five subjects and then computes the average and prints the order of merit based on the average mark.
-// Average Mark
-// Order of Merit
-// 75 – 100
-// Distinction
-// 65 – 75
-// Credit
-// 50 – 65
-// Pass
-// 0 – 50
-// Fail.
-
 import java.util.Scanner;
 
-public class Main {
+public class Grades5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter marks scored in five subjects: ");
