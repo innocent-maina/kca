@@ -1,8 +1,6 @@
-// Write a program that computes the area & perimeter of either a rectangle, a circle or a right-angled triangle. The program should display a menu that enables the user to select the type of figure whose area & perimeter he/she wants to compute. Depending on the users choice, the program should prompt for the dimensions and perform the computations. The output should be: - The type of figure, the dimensions, the area and the perimeter. (NB:The calculation should be for only one figure at any one time.)
-
 import java.util.Scanner;
 
-public class Main {
+public class AllRound7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a figure: ");
