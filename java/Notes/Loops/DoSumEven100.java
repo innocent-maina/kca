@@ -5,16 +5,16 @@ class DoSumEven100
 {
    public static void main(String args[])
    {
-      int h, sum = 0;
-
-      h = 1;
+      int k = 1;
+      int sum = 0;
 
       do
       {
-         if(h % 2 == 0)
-            sum = sum + h;
-	 h = h + 1;
-      }while(h <= 100);
+         if(k % 2 == 0) {
+            sum = sum + k;
+         }
+	    k = k + 1;
+      }while(k <= 100);
 
       System.out.println("\nThe sum of all numbers between 1 and 100 is " + sum);
    }

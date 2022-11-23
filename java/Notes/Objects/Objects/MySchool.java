@@ -37,7 +37,7 @@ class Mangu
       name = myScanner.nextLine();
       System.out.print("Enter the marks he/she scored: ");
       marks = myScanner.nextDouble();
-   } 
+   }
 }
 
 class MySchool
@@ -47,10 +47,10 @@ class MySchool
       Mangu stud1 = new Mangu();
       Mangu stud2 = new Mangu();
       Mangu stud3 = new Mangu();
- 
+
       stud1.set("DIT-001-3456/2000","Antony Kirui",89);
       stud2.set("CIT-001-4256/2000","Jacinta Wairimu",36);
-      
+
       System.out.println("Analysis for the first student.");
       System.out.println("-------------------------------------------------");
       stud1.dataout();
