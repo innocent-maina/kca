@@ -1,10 +1,7 @@
-import java.util.Scanner;
-
-class MatrixInitialize
+public class MatrixInitialize
 {
    public static void main(String args[])
    {
-      Scanner myScanner = new Scanner(System.in);
       int[][] data = {{8,7,4,5},{6,3,8,9},{8,2,6,9}};
       int i,j,sum = 0;
       double avg;

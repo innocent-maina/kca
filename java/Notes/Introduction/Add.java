@@ -19,5 +19,6 @@ class Add
       System.out.println("\nThe sum of the numbers is " + sum);
       System.out.println("Their product is " + prod);
       System.out.println("Their average is " + avg);
+      System.out.println("\nThe object myScanner belongs to a class called " + myScanner.getClass().getName());
    }
 }

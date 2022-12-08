@@ -5,6 +5,8 @@ public class AllRound7 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a figure: ");
         String figure = scanner.nextLine();
+        // turn it to lower case
+        figure = figure.toLowerCase();
         if (figure.equals("rectangle")) {
             System.out.println("Enter the length: ");
             double length = scanner.nextDouble();

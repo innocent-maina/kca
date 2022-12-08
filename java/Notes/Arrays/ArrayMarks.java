@@ -26,3 +26,4 @@ class ArrayMarks
       System.out.println("The average mark is " + avg);
    }
 }
+ 

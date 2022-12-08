@@ -15,3 +15,4 @@ class ArrayOne
          System.out.println(jina[i]);
    }
 }
+ 

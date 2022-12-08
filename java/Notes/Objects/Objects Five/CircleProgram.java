@@ -2,18 +2,16 @@ class CircleProgram
 {
    public static void main(String args[])
    {
-      Circle circ1 = new Circle();
-      Circle circ2 = new Circle();
+      CicrleConstructor circ1 = new CicrleConstructor();
+      CicrleConstructor circ2 = new CicrleConstructor();
 
       System.out.println("\nData entry for circle 1:");
       System.out.println("-----------------------------------------");
-      circ1.getData();
-      circ1.compute();
+      circ1.getRadius();
 
       System.out.println("\nData entry for circle 2:");
       System.out.println("-----------------------------------------");
-      circ2.getData();
-      circ2.compute();
+      circ2.getRadius();
 
       System.out.println("\nOutput for circle 1:");
       System.out.println("-----------------------------------------");
