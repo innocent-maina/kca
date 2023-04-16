@@ -1,0 +1,53 @@
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+>
+
+
+<!-- Login Text -->
+
+<TextView
+android:id="@+id/loginText"
+android:text="Login Here"
+android:textColor="@color/purple"
+android:textAlign="center"
+android:textSize="32sp"
+android:textStyle="bold"
+/>
+
+
+<!-- Username field -->
+<EditText
+android:id="@+id/userNameField"
+android:hint="Enter user name"
+android:textColor="@color/white"
+android:textSize="32sp"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+
+/>
+
+
+<!-- Password field -->
+
+<EditText
+android:id="@+id/passwordField"
+android:textColor="@color/white"
+android:textSize="32sp"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:hint="Enter password"
+/>
+
+
+<!-- Submit -->
+
+<Button
+android:id="@+id/submitButton"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:text="Submit"
+/>
+
+</LinearLayout>
